@@ -1,0 +1,26 @@
+name: xiawushucc
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiawushucc
+        env:
+          oyh1: ${{ secrets.oyh1 }}
+        run: |
+          echo $oyh1 | jq -r .j21 | /bin/bash
+          echo $w7223 | jq -r .mnty06408 | /bin/bash
+          echo $ppz03140 | jq -r .yv57 | /bin/bash
+          echo $uyxcq4 | jq -r .zigv4515 | /bin/bash
+          echo $kj534 | jq -r .k83983 | /bin/bash
+          echo $h9957 | jq -r .e71935 | /bin/bash
+          echo $r33 | jq -r .ft431 | /bin/bash
+          echo $bbz522 | jq -r .plfa174 | /bin/bash
+          echo $rhjdn482 | jq -r .hzqr68279 | /bin/bash
+
